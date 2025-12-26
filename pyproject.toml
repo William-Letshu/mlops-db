@@ -1,0 +1,10 @@
+[project]
+name = "mlops-db"
+version = "0.1.0"
+description = "MLops project using Databricks and Airflow"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow-providers-databricks>=7.8.1",
+    "databricks-sdk>=0.76.0",
+]
